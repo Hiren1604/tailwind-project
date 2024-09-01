@@ -12,6 +12,9 @@ module.exports = {
       },
       boxShadow: {
         'custom': '0px 2px 10px rgba(0,0,0,0.1)'
+      },
+      backgroundImage : {
+        'section-bg': "url('./assets/images/asset 55.png"
       }
     },
   },

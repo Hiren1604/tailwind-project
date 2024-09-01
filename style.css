@@ -7,6 +7,10 @@
 
 @layer base {
     body {
+        @apply overflow-x-hidden;
         @apply font-body;
+    }
+    .container {
+        @apply h-20 px-10 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32;
     }
 }
