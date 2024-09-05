@@ -43,10 +43,31 @@ function setupIntersectionObserver(element, isLTR, speed) {
 const line1 = document.getElementById("line-1");
 const line2 = document.getElementById("line-2");
 const line3 = document.getElementById("line-3");
+const line4 = document.getElementById("line-4");
 
 // Setup observers for elements with direction and speed
 setupIntersectionObserver(line1, true, 0.15);  // Left to Right
 setupIntersectionObserver(line2, false, 0.15); // Right to Left
 setupIntersectionObserver(line3, true, 0.15);  // Left to Right
+setupIntersectionObserver(line4, true, 0.4);  // Left to Right
+
+
+const dtEls = document.querySelectorAll("dt");
+dtEls.forEach(element => {
+    element.addEventListener("click", () => {
+        const ddId = element.getAttribute("aria-controls");
+        const ddEl = document.getElementById(ddId);
+        const arrowIcon = element.querySelectorAll("i")[0];
+        
+        // Toggle the visibility of the content
+        ddEl.classList.toggle("hidden");
+        
+        // Toggle the rotation class for the arrow icon
+        arrowIcon.classList.toggle("-rotate-180");
+    });
+});
+
+
+
 
 
