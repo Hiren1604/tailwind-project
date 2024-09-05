@@ -11,6 +11,6 @@
         @apply font-body;
     }
     .container {
-        @apply px-4 py-12 max-w-7xl  mx-auto lg:px-28 lg:mt-8;
+        @apply px-4 py-12 max-w-7xl mx-auto lg:px-28 lg:mt-4;
     }
 }

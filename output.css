@@ -465,7 +465,7 @@ body{
 
 @media (min-width: 1024px){
   .container{
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-left: 7rem;
     padding-right: 7rem;
   }
@@ -629,6 +629,10 @@ body{
   inset: 0px;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .left-1{
   left: 0.25rem;
 }
@@ -637,20 +641,16 @@ body{
   left: 0.5rem;
 }
 
+.right-0{
+  right: 0px;
+}
+
 .right-8{
   right: 2rem;
 }
 
 .top-0{
   top: 0px;
-}
-
-.left-0{
-  left: 0px;
-}
-
-.right-0{
-  right: 0px;
 }
 
 .z-10{
@@ -704,11 +704,6 @@ body{
   margin-bottom: 0px;
 }
 
-.my-12{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .-mr-3{
   margin-right: -0.75rem;
 }
@@ -733,6 +728,14 @@ body{
   margin-top: 2.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -743,14 +746,6 @@ body{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
 }
 
 .block{
@@ -1422,12 +1417,6 @@ body{
 .shadow-sm{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-lg{
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
